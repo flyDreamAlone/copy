@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid #999999;
+}
+
+.content .item {
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #666666;
+}
+
+.content .item .address {
+	margin-left: 20px;
+}
+
+.content .item .img {
+	width: 11px;
+	height: 20px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.my_clip_button {
+	width: 150px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: #ccc;
+	margin: 10px;
+	padding: 10px;
+	cursor: default;
+	font-size: 9pt;
+}
+
+.my_clip_button:hover {
+	background-color: #fff;
+}
+
+.my_clip_button:active {
+	background-color: #aaa;
+}
